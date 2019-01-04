@@ -38,9 +38,7 @@ text-shadow: 1px 1px 1px #222;
 margin-top: 0;
 margin-bottom: 0;
 line-height: .75;
-
 }
-
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
@@ -52,4 +50,60 @@ line-height: .75;
 }
 .navbar-brand p span {
     vertical-align: middle;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #951c49;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+#phone {
+    margin-top: 5px;
+}
+#phone a {/*phone number*/
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div {/*we deliver*/
+      color: #557c3e;
+      text-align: right;
+      padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+/******large devices******/
+@media(min-width: 1200px){
+
+}
+/*****medium devices*****/
+@media(min-width:992px) and (max-width: 1199px){
+/*header*/
+#logo-img{
+    background: url(../imagess/chef.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+}
+/*end header*/
+}
+/*****small devices*****/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/****extra-small devices*****/
+@media (max-width:767px){
+
 }
