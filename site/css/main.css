@@ -108,10 +108,9 @@ line-height: .75;
   }
   .navbar-brand h1 { /*restaurant name*/
        padding-top: 10px;
-       font-size: 5vw;
+       font-size: 5vw; /* 1vw = 1% of viewport width*/
   }
   .navbar-brand p { /*luo traditional meals*/
-        text-transform: uppercase;
         font-size: .6em;
         margin-top: 12px;
   }
