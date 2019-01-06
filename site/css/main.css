@@ -79,23 +79,47 @@ line-height: .75;
     clear: both;
     margin-top: -30px;
 }
+/*end header*/
+
+.container .jumbotron {
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
 /******large devices******/
 @media(min-width: 1200px){
-
+ .container .jumbotron {
+      background: url('../imagess/restaurant101-large\ \(1\).jpg') no-repeat;
+      height: 675px;
+      
+  }
 }
 /*****medium devices*****/
 @media(min-width:992px) and (max-width: 1199px){
 /*header*/
 #logo-img{
-    background: url(../imagess/icon-values\ \(1\).png) no-repeat;
+    background: url('../imagess/icon-values\ \(1\).png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
-}
+  }
 /*end header*/
+
+/*home page*/
+.container .jumbotron {
+    background: url('../imagess/restaurant101-medium2.jpg') no-repeat;
+    height: 558px;
+    
+}
 }
 /*****small devices*****/
 @media (min-width: 768px) and (max-width: 991px){
+   /*home page*/
+   .container .jumbotron {
+       background: url('../imagess/restaurant101-smallDevices.jpg') no-repeat;
+       height: 432px;
+      
+   }
+   /*end home page*/
 
 }
 
@@ -116,5 +140,36 @@ line-height: .75;
   }
   .navbar-brand p img { /*samak image*/
         height: 20px;
+  }
+  #collapsable-nav a { /*collapsed nav menu glyph*/
+    font-size: 1.2em;
+}
+#collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49; 
+  }
+  #xs-deliver {
+      margin-top: 5px;
+      font-size: .7em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+  }
+  /*end header*/
+
+  /*home page*/
+  .container .jumbotron {
+      margin-top: 30px;
+      padding: 0;
+      
   }
 }
