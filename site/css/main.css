@@ -79,9 +79,40 @@ line-height: .75;
     clear: both;
     margin-top: -30px;
 }
-/*end header*/
+/*END HEADER*/
+/*FOOTER*/
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+#hours, #address {
+      line-height: 2;
+}
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials {
+    font-style: italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
 
-/*home page */
+/*End of footer*/
+
+/*HOME page */
 .container .jumbotron {
     box-shadow: 0 0 50px #3f0c1f;
     border: 2px solid #3f0c1f;
@@ -103,6 +134,7 @@ line-height: .75;
 #menu-tile {
     background: url('../imagess/fishes123.jpg') no-repeat;
     background-position: center;
+    
 }
 
 #specials-tile {
@@ -122,6 +154,7 @@ line-height: .75;
     color: #fff;
     opacity: .7;
 }
+
 /******large devices******/
 @media(min-width: 1200px){
  .container .jumbotron {
@@ -130,6 +163,7 @@ line-height: .75;
       
   }
 }
+
 /*****medium devices*****/
 @media(min-width:992px) and (max-width: 1199px){
 /*header*/
@@ -153,7 +187,7 @@ line-height: .75;
    /*home page*/
    .container .jumbotron {
        background: url('../imagess/restaurant101-smallDevices.jpg') no-repeat;
-       height: 432px;
+       height: 400px;
       
    }
    /*end home page*/
@@ -169,7 +203,7 @@ line-height: .75;
   }
   .navbar-brand h1 { /*restaurant name*/
        padding-top: 10px;
-       font-size: 5vw; /* 1vw = 1% of viewport width*/
+       font-size: 6vw; /* 1vw = 1% of viewport width*/
   }
   .navbar-brand p { /*luo traditional meals*/
         font-size: .6em;
@@ -202,11 +236,38 @@ line-height: .75;
       text-transform: uppercase;
   }
   /*end header*/
-
+  /* Footer */
+  .panel-footer section {
+      margin-bottom: 30px;
+      text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+      margin-bottom: 0; /* margin already exists on the whole row*/
+  }
+  .panel-footer section hr {
+      width: 50%;
+  }
+  /*End footer*/
+}
   /*home page*/
   .container .jumbotron {
       margin-top: 30px;
       padding: 0;    
   }
+
+
+/********super extra small devices***********/
+@media (max-width: 479px){
+    /*****header******/
+    .navbar-brand h1 { /*restaurant name*/
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+
+    /***home page*/
+    #menu-tile, #specials-tile{
+        width: 280px;
+        margin: 0 auto 15px;
+    }
 
 }
