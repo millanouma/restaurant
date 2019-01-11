@@ -134,14 +134,12 @@ line-height: .75;
 #menu-tile {
     background: url('../imagess/fishes123.jpg') no-repeat;
     background-position: center;
-    
 }
 
 #specials-tile {
-    background: url('../imagess/fish-bbQ.jpg') no-repeat;
+    background: url('../imagess/image-nyama.jpg') no-repeat;
     background-position: center;
 } 
-
 #menu-tile span, #specials-tile span, #map-tile span {
     position: absolute;
     bottom: 0;
@@ -236,6 +234,7 @@ line-height: .75;
       text-transform: uppercase;
   }
   /*end header*/
+
   /* Footer */
   .panel-footer section {
       margin-bottom: 30px;
@@ -269,5 +268,14 @@ line-height: .75;
         width: 280px;
         margin: 0 auto 15px;
     }
-
+    #menu-tile {
+        background: url('../imagess/fishes123-reload.jpg') no-repeat;
+        background-position: center;
+    }
+    #specials-tile {
+        background: url('../imagess/image-nyama1.jpg') no-repeat;
+        background-position: center;
+        height: 210px;
+        margin-top: 15px;
+    }
 }
